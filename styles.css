@@ -21,13 +21,19 @@ body {
 
 .header {
     height: 80px;
-    font-size: 20px;
     white-space: nowrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     border-bottom: 2px solid #ffffff;
+    background-color: #020035;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    white-space: nowrap;
 }
 
 .links {
