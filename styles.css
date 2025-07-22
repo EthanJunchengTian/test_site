@@ -34,12 +34,17 @@ body {
     height: 80px;
     white-space: nowrap;
     border-top: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 .logo {
     font-size: 30px;
     font-weight: 800;
     white-space: nowrap;
+    padding-left: 10px;
 }
 
 .links {
@@ -48,6 +53,7 @@ body {
     gap: 24px;
     font-size: 15px;
     font-weight: 500;
+    padding-right: 10px;
 }
 
 .content {
@@ -55,5 +61,5 @@ body {
     display: flex;
     flex-direction: column;
     padding: 80px;
-    
+
 }
