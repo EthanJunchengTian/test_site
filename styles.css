@@ -27,7 +27,13 @@ body {
     align-items: center;
     padding: 10px;
     border-bottom: 2px solid #ffffff;
-    background-color: #020035;
+    
+}
+
+.footer {
+    height: 80px;
+    white-space: nowrap;
+    border-top: 2px solid #ffffff;
 }
 
 .logo {
@@ -41,6 +47,7 @@ body {
     white-space: nowrap;
     gap: 24px;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .content {
