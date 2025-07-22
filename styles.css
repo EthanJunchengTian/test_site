@@ -19,9 +19,27 @@ body {
     color: #ffffff;
 }
 
-.header,
-.footer {
+.header {
     height: 80px;
     font-size: 20px;
     white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.links {
+    display: flex;
+    white-space: nowrap;
+    gap: 24px;
+    font-size: 15px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
 }
