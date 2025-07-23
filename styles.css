@@ -70,16 +70,18 @@ body {
     
 }
 
+
+
 .big_text {
     font-size: 25px;
-    
+    text-align: center;
     
     
 }
 
 .small_text {
     font-size: 15px;
-    
+    text-align: center;
 }
 
 .button {
