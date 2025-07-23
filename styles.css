@@ -68,3 +68,20 @@ body {
     margin: 0 auto;
 
 }
+
+.big_text {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    flex: 1;
+    max-width: 500px;
+
+}
+
+.small_text {
+    font-size: 15px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+    flex: 1;
+    max-width: 500px;
+}
