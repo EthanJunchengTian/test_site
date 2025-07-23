@@ -82,6 +82,8 @@ body {
 }
 
 .small_text {
+    margin-top: 20px;
+    line-height: 1.2;
     font-size: 15px;
     text-align: center;
 }
@@ -94,13 +96,16 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .image {
     flex: 1;
     height: auto;
     width: 100%;
+    display: flex;
 }
 
 .info_card {
