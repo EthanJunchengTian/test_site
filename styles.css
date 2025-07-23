@@ -96,7 +96,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
-    align-items: center;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
