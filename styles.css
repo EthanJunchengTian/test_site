@@ -65,14 +65,10 @@ body {
 .content {
     flex-direction: column;
     display: flex;
-    padding: 100px 0;
+    white-space: nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    max-width: 1200px;
     
-    text-align: center;
-    margin-top: auto;
 }
 
 .big_text {
