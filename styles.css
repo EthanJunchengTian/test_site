@@ -67,7 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 80px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #ffffff;
 }
 
 
@@ -89,17 +89,22 @@ body {
 }
 
 .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     color: #000000;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    border-radius: 10px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
     margin-top: 15px;
 }
 
@@ -113,6 +118,7 @@ body {
 }
 
 .info_card {
+    flex-direction: row;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -120,11 +126,12 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     flex: 1;
-    flex-direction: row;
+    
 
 }
 
 .info_image img {
+    flex-direction: row;
     width: 200px;
     height: 200px;
     border: 2px solid #ffffff;
@@ -132,5 +139,5 @@ body {
     border-radius: 8px;
     display: block;
     object-fit: cover;
-    flex-direction: row;
+    
 }
