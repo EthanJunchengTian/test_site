@@ -73,6 +73,8 @@ body {
 
 
 .big_text {
+    margin-top: 20px;
+    
     font-size: 25px;
     text-align: center;
     
@@ -92,7 +94,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
-    align-items: center;
+    text-align: center;
 }
 
 .image {
@@ -100,3 +102,5 @@ body {
     height: auto;
     width: 100%;
 }
+
+
