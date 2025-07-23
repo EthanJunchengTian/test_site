@@ -97,8 +97,9 @@ body {
     text-transform: uppercase;
     border-radius: 10px;
     align-items: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
 }
 
@@ -121,7 +122,7 @@ body {
 
 }
 
-.info_image {
+.info_image img {
     width: 200px;
     height: 200px;
     border: 2px solid #ffffff;
