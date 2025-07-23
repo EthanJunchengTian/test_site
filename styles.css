@@ -118,7 +118,7 @@ body {
 }
 
 .info_card {
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ body {
 }
 
 .info_image img {
-    flex-direction: row;
+    
     width: 200px;
     height: 200px;
     border: 2px solid #ffffff;
