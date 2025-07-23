@@ -119,6 +119,7 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     flex: 1;
+    flex-direction: row;
 
 }
 
@@ -130,4 +131,5 @@ body {
     border-radius: 8px;
     display: block;
     object-fit: cover;
+    flex-direction: row;
 }
