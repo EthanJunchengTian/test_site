@@ -70,9 +70,9 @@ body {
     align-items: center;
     gap: 40px;
     max-width: 1200px;
-    margin: 20px auto;
+    
     text-align: center;
-
+    margin-top: auto;
 }
 
 .big_text {
@@ -110,5 +110,5 @@ body {
     height: 300px;
     border-radius: 8px;
     min-width: 300px;
-
+    margin-left: auto
 }
