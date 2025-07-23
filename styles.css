@@ -65,7 +65,7 @@ body {
 .content {
     flex-direction: column;
     display: flex;
-    padding: 80px 10%;
+    padding: 100px 0;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
