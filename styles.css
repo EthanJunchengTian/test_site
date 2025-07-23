@@ -63,11 +63,8 @@ body {
 }
 
 .content {
-    flex-direction: column;
     display: flex;
-    white-space: nowrap;
-    justify-content: space-between;
-    align-items: center;
+    padding: 100px 0;
     
 }
 
@@ -100,11 +97,3 @@ body {
     border-radius: 10px;
 }
 
-.image {
-    flex: 1;
-    flex-shrink: 0;
-    height: 300px;
-    border-radius: 8px;
-    min-width: 300px;
-    margin-left: auto
-}
