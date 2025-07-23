@@ -67,11 +67,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 80px 10%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 40px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
 
 }
 
@@ -81,8 +81,7 @@ body {
     margin-bottom: 16px;
     flex: 1;
     max-width: 500px;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .small_text {
@@ -91,8 +90,7 @@ body {
     line-height: 1.5;
     flex: 1;
     max-width: 500px;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .button {
