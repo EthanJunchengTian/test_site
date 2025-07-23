@@ -74,7 +74,7 @@ body {
 
 .big_text {
     margin-top: 20px;
-    
+    margin-bottom: 20px;
     font-size: 25px;
     text-align: center;
     
@@ -82,7 +82,7 @@ body {
 }
 
 .small_text {
-    margin-top: 20px;
+    
     line-height: 1.2;
     font-size: 15px;
     text-align: center;
