@@ -64,27 +64,21 @@ body {
 
 .content {
     display: flex;
-    padding: 100px 0;
+    align-items: center;
+    gap: 80px;
     
 }
 
 .big_text {
     font-size: 25px;
-    font-weight: 800;
-    margin-bottom: 16px;
-    flex: 1;
-    max-width: 500px;
-    text-align: center;
+    
+    
     
 }
 
 .small_text {
     font-size: 15px;
-    margin-bottom: 24px;
-    line-height: 1.5;
-    flex: 1;
-    max-width: 500px;
-    text-align: center;
+    
 }
 
 .button {
@@ -97,3 +91,8 @@ body {
     border-radius: 10px;
 }
 
+.image {
+    flex: 1;
+    height: auto;
+    width: 100%;
+}
